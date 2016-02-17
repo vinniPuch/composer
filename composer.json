@@ -1,0 +1,14 @@
+{
+    "name": "backendless/sdk",
+    "description": "asd",
+    "type": "SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Math",
+            "email": "my@com.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
