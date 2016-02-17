@@ -9,6 +9,5 @@
             "email": "my@com.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {}
 }
