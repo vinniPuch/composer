@@ -1,13 +1,21 @@
 {
     "name": "sharp/sdk",
-    "description": "asd2",
-    "type": "SDK",
+    "description": "Backendless API SDK for PHP",
+    "keywords": ["backendless", "BaaS", "SDK", "API"],
+    "homepage": "https://backendless.com/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dmitry Math",
-            "email": "my@com.com"
+            "name": "Dmitry Matviychuk",
+            "email":"dmitriy.matviychuk@themidnightcoders.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.4.45"
+    },
+    "autoload": {
+        "psr-4": {
+            "backendless": "src"
+        }
+    }
 }
